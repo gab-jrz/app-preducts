@@ -12,7 +12,7 @@ const app = express();
 // Middlewares
 app.use(express.json());
 app.use(cors({
-  origin: '*', // Ajusta a tu dominio de Vercel cuando lo tengas, p.ej: [/\.vercel\.app$/]
+  origin: [/\.vercel\.app$/, 'https://app-preducts.vercel.app'],
   methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
