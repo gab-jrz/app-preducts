@@ -1,0 +1,30 @@
+{
+  "usuarios": [
+    { "id": 1, "nombre": "Ana", "imagen": "/images/ana.png", "provincia": "Buenos Aires" },
+    { "id": 2, "nombre": "Bruno", "imagen": "/images/bruno.png", "provincia": "Córdoba" }
+  ],
+  "productos": [
+    {
+      "id": 1,
+      "titulo": "Teclado Mecánico",
+      "descripcion": "Switches azules, muy poco uso",
+      "categoria": "Tecnología",
+      "fechaPublicacion": "2025-08-28T12:00:00.000Z",
+      "provincia": "Buenos Aires",
+      "ownerId": 1
+    },
+    {
+      "id": 2,
+      "titulo": "Zapatillas Running",
+      "descripcion": "Talle 42, nuevas",
+      "categoria": "Deportes",
+      "fechaPublicacion": "2025-08-27T12:00:00.000Z",
+      "provincia": "Córdoba",
+      "ownerId": 2
+    }
+  ],
+  "mensajes": [
+    { "id": 1, "deId": 1, "paraId": 2, "texto": "Hola, te interesa intercambiar?", "fecha": "2025-08-30T15:00:00.000Z" },
+    { "id": 2, "deId": 2, "paraId": 1, "texto": "Sí, contame más del teclado", "fecha": "2025-08-30T15:02:00.000Z" }
+  ]
+}
